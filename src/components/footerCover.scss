@@ -1,0 +1,32 @@
+@import "../app.scss";
+
+.footer {
+  //   width: 100%;
+  height: 20px;
+  padding: 0 20px 40px 20px;
+  color: #231568;
+  font-weight: 500;
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+
+  //   @include mobile {
+  //     margin-top: 10%;
+  //   }
+
+  .social {
+    display: flex;
+    gap: 30px;
+    padding-top: 0.9%;
+    font-size: 20px;
+
+    @include mobile {
+      margin: 1%;
+    }
+
+    a {
+      color: #0c3025;
+    }
+  }
+}

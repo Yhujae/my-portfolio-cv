@@ -1,0 +1,205 @@
+.contact {
+  height: 80%;
+  max-width: 1366px;
+  background-color: linear-gradient(180deg, #ffffff, #f2efefb4);
+  margin: auto;
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  // @include tablet {
+  //   width: 100%;
+  //   padding-top: 10px;
+  //   flex-direction: column;
+  // }
+
+  // @include mobile {
+  //   width: 100%;
+  //   padding-top: 20px;
+  //   flex-direction: column;
+  // }
+
+  .textContainer {
+    margin-top: -5%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    // @include desktop {
+    //   gap: 40px;
+    //   margin-left: 30px;
+    // }
+
+    // @include tablet {
+    //   gap: 20px;
+    //   text-align: center;
+    //   align-items: center;
+    //   margin-top: 10px;
+    //   color: #7d7676b4;
+    // }
+
+    // @include mobile {
+    //   gap: 20px;
+    //   text-align: center;
+    //   align-items: center;
+    //   margin: 10px;
+    // }
+
+    .textContainerItem {
+      flex: 1;
+      align-self: flex-start;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+
+      // @include tablet {
+      //   align-self: start;
+      //   text-align: center;
+      //   flex-direction: row;
+      // }
+
+      // @include mobile {
+      //   align-self: center;
+      //   text-align: center;
+      //   flex-direction: column;
+      // }
+
+      .item {
+        background-color: #ffffff;
+        padding: 30px;
+        margin: 5px;
+        border-radius: 2px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+
+        h2 {
+          color: #9f630991;
+        }
+
+        &:hover {
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); // Increase box shadow on hover
+        }
+
+        h2 {
+          font-size: 20px;
+          margin-bottom: 8px;
+        }
+
+        span {
+          font-weight: 300;
+          font-size: 14px;
+        }
+      }
+    }
+
+    h1 {
+      font-size: 100px;
+      line-height: 88px;
+      color: rgba(32, 29, 71, 0.724);
+
+      // @include tablet {
+      //   margin-top: 20%;
+      //   font-size: 65px;
+      // }
+
+      // @include mobile {
+      //   font-size: 36px;
+      // }
+    }
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  .formContainer {
+    flex: 1;
+    position: relative;
+
+    // @include tablet {
+    //   padding: 50px;
+    //   width: 100%;
+    // }
+
+    // @include mobile {
+    //   padding: 50px;
+    //   width: 100%;
+    // }
+
+    .phoneSvg {
+      stroke: #f293059b;
+      position: absolute;
+      margin: auto;
+      z-index: -1;
+
+      // @include tablet {
+      //   margin-left: 25%;
+      // }
+
+      // @include mobile {
+      //   margin-left: -20%;
+      // }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      // @include desktop {
+      //   padding: 30px;
+      //   margin-top: -10%;
+      // }
+
+      // @include tablet {
+      //   padding: 20px;
+      // }
+
+      // @include mobile {
+      //   padding: 10px;
+      // }
+
+      input,
+      textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid #7d7676b4;
+        color: black;
+        border-radius: 5px;
+
+        // @include mobile {
+        //   padding: 10px;
+        // }
+      }
+
+      button {
+        padding: 20px;
+        border: none;
+        background-color: #9f630991;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fff;
+
+        // @include tablet {
+        //   padding: 15px;
+        // }
+
+        // @include mobile {
+        //   padding: 10px;
+        // }
+      }
+
+      .error {
+        color: red;
+      }
+
+      .success {
+        color: green;
+      }
+    }
+  }
+}
