@@ -128,7 +128,7 @@ const Project = () => {
       <HeaderCover />
       <div className='projectIntro'>
         <h1>
-          My <b>Projects</b> 🙂
+          My <b>Projects</b> 💼
         </h1>
         <p>
           I've had the privilege of leading and collaborating on various startup

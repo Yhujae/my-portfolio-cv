@@ -71,7 +71,7 @@ function Skills() {
     <div className='skillsContainer'>
       <div className='intro'>
         <h1>
-          Hello, i'm <b>Precious</b> 🙂
+          Hello, i'm <b>Precious</b> 👋
         </h1>
         <p>
           Adaptable IT Professional and Front-End Developer with a passion for
@@ -91,8 +91,7 @@ function Skills() {
         src='/images/arrow.png'
         alt=''
       />
-
-      <h2>My Skills</h2>
+      <h2>My Skills </h2>
       <div className='iconContainer'>
         {imageInfo.map((info, index) => (
           <motion.div
