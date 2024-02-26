@@ -1,6 +1,6 @@
 import { experiencesData } from "../lib/data";
 import "./experience.scss";
-import FooterCover from "./FooterCover";
+import FooterCover from "./Footer";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -28,6 +28,7 @@ function Experience() {
                 background: "#fff",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
+                borderBottom: "4px solid green",
                 borderRadius: "10px",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
@@ -71,7 +72,6 @@ function Experience() {
           ))}
         </VerticalTimeline>
       </div>
-      <hr style={{ marginTop: "10%", width: "40vw" }} />
       <FooterCover />
     </>
   );

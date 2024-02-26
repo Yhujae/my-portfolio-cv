@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
-import HeaderCover from "./HeaderCover";
-import FooterCover from "./FooterCover";
+import HeaderCover from "./Header";
+import FooterCover from "./Footer";
 import emailjs from "emailjs-com";
 
 const variants = {
@@ -164,7 +164,6 @@ function Contact() {
           </motion.form>
         </div>
       </motion.div>
-      <hr style={{ marginTop: "10%", width: "40vw" }} />
       <FooterCover />
     </>
   );

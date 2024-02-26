@@ -71,7 +71,7 @@ function Skills() {
     <div className='skillsContainer'>
       <div className='intro'>
         <h1>
-          Hello, i'm <b>Precious</b> <strong>🙂</strong>
+          Hello, i'm <b>Precious</b> 🙂
         </h1>
         <p>
           Adaptable IT Professional and Front-End Developer with a passion for

@@ -1,6 +1,6 @@
 import React from "react";
 import Skills from "./Skills";
-import HeaderCover from "./HeaderCover";
+import HeaderCover from "./Header";
 import Experience from "./Experience";
 
 function CoverPage() {

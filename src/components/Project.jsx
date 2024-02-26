@@ -1,8 +1,8 @@
 import "./project.scss";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import HeaderCover from "./HeaderCover";
-import FooterCover from "./FooterCover";
+import HeaderCover from "./Header";
+import FooterCover from "./Footer";
 import { IoIosArrowForward } from "react-icons/io";
 
 const ProjectCard = ({ imageSrc, title, description, liveLink }) => {
@@ -128,7 +128,7 @@ const Project = () => {
       <HeaderCover />
       <div className='projectIntro'>
         <h1>
-          My <b>Projects</b>
+          My <b>Projects</b> 🙂
         </h1>
         <p>
           I've had the privilege of leading and collaborating on various startup
@@ -160,7 +160,7 @@ const Project = () => {
           </div>
         ))}
       </div>
-      <hr style={{ marginTop: "10%", width: "40vw" }} />
+
       <FooterCover />
     </div>
   );
