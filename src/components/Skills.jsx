@@ -13,8 +13,10 @@ function Skills() {
     { src: "/images/react.png", name: "React" },
     { src: "/images/node-js.png", name: "Node.js" },
     { src: "/images/tailwind-css.png", name: "Tailwind" },
+    { src: "/images/nextjs.png", name: "Next.JS" },
     { src: "/images/sass.png", name: "SASS" },
     { src: "/images/bootstrap.png", name: "Bootstrap" },
+    { src: "/images/typescript.png", name: "TypeScript" },
   ];
 
   const [hoveredIndex, setHoveredIndex] = useState(null);
