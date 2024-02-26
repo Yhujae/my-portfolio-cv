@@ -11,7 +11,7 @@ body {
     text-align: center;
     line-height: 1.5;
     height: 150px;
-    width: 50vw;
+    width: 70%;
     margin: auto;
 
     @include mobile {
@@ -38,6 +38,11 @@ body {
       line-height: 1.5;
       margin: auto;
 
+      @include tablet {
+        width: 100%;
+        font-size: 22px;
+      }
+
       @include mobile {
         font-size: 18px;
         padding: 4%;
@@ -50,6 +55,11 @@ body {
     margin: auto;
     width: 100%;
     margin-top: 5%;
+
+    @include tablet {
+      width: 100%;
+      margin-top: 10%;
+    }
 
     @include mobile {
       max-width: 500px;

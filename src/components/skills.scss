@@ -16,20 +16,38 @@
   margin: auto;
   margin-bottom: 10%;
   margin-top: -3%;
-  width: 50vw;
+  width: 50%;
   text-align: center;
   box-shadow: 2px 5px 7px rgba(226, 226, 226, 0.748);
   border-radius: 15px;
   padding: 5%;
 
+  @include desktop {
+    margin-top: 15%;
+    width: 80%;
+  }
+
+  @include tablet {
+    margin-top: 15%;
+    width: 80%;
+  }
+
   @include mobile {
     margin-top: 30%;
-    width: 80vw;
+    width: 80%;
   }
 
   h1 {
     font-size: 60px;
     margin-top: 0;
+
+    @include desktop {
+      font-size: 55px;
+    }
+
+    @include tablet {
+      font-size: 50px;
+    }
 
     @include mobile {
       font-size: 40px;
@@ -57,6 +75,16 @@
     line-height: 1.5;
     margin: auto;
 
+    @include desktop {
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    @include tablet {
+      font-size: 20px;
+      font-weight: 400;
+    }
+
     @include mobile {
       font-size: 17px;
       font-weight: 400;
@@ -70,6 +98,14 @@
   margin: -2% 0 5% 0;
   width: 80px;
 
+  @include desktop {
+    margin: 10% 0 30% 0;
+  }
+
+  @include tablet {
+    margin: 12% 0 30% 0;
+  }
+
   @include mobile {
     margin: 10% 0 30% 0;
   }
@@ -81,6 +117,15 @@ h2 {
   color: #5cbacf;
   font-size: 40px;
   margin-top: 15%;
+
+  @include desktop {
+    margin-top: -2%;
+  }
+
+  @include tablet {
+    font-size: 40px;
+    margin-top: -2%;
+  }
 
   @include mobile {
     font-size: 30px;
@@ -98,6 +143,17 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  @include desktop {
+    width: 80%;
+    height: 500px;
+  }
+
+  @include tablet {
+    width: 70%;
+    height: 500px;
+    margin-bottom: 20%;
+  }
 
   @include mobile {
     width: 95%;
