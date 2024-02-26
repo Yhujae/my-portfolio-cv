@@ -69,15 +69,6 @@
     line-height: 1.5;
     margin: auto;
 
-    @include desktop {
-      font-size: 22px;
-      font-weight: 400;
-    }
-
-    @include tablet {
-      font-size: 20px;
-    }
-
     @include mobile {
       font-size: 17px;
     }
