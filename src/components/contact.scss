@@ -1,3 +1,5 @@
+@import "../app.scss";
+
 .contact {
   height: 80%;
   max-width: 1366px;
@@ -8,17 +10,17 @@
   align-items: center;
   gap: 50px;
 
-  // @include tablet {
-  //   width: 100%;
-  //   padding-top: 10px;
-  //   flex-direction: column;
-  // }
+  @include tablet {
+    width: 100%;
+    padding-top: 10px;
+    flex-direction: column;
+  }
 
-  // @include mobile {
-  //   width: 100%;
-  //   padding-top: 20px;
-  //   flex-direction: column;
-  // }
+  @include mobile {
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+  }
 
   .textContainer {
     margin-top: -5%;
@@ -27,25 +29,25 @@
     flex-direction: column;
     gap: 10px;
 
-    // @include desktop {
-    //   gap: 40px;
-    //   margin-left: 30px;
-    // }
+    @include desktop {
+      gap: 40px;
+      margin-left: 30px;
+    }
 
-    // @include tablet {
-    //   gap: 20px;
-    //   text-align: center;
-    //   align-items: center;
-    //   margin-top: 10px;
-    //   color: #7d7676b4;
-    // }
+    @include tablet {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin-top: 10px;
+      color: #7d7676b4;
+    }
 
-    // @include mobile {
-    //   gap: 20px;
-    //   text-align: center;
-    //   align-items: center;
-    //   margin: 10px;
-    // }
+    @include mobile {
+      gap: 20px;
+      text-align: center;
+      align-items: center;
+      margin: 10px;
+    }
 
     .textContainerItem {
       flex: 1;
@@ -55,17 +57,17 @@
       text-align: center;
       gap: 20px;
 
-      // @include tablet {
-      //   align-self: start;
-      //   text-align: center;
-      //   flex-direction: row;
-      // }
+      @include tablet {
+        align-self: start;
+        text-align: center;
+        flex-direction: row;
+      }
 
-      // @include mobile {
-      //   align-self: center;
-      //   text-align: center;
-      //   flex-direction: column;
-      // }
+      @include mobile {
+        align-self: center;
+        text-align: center;
+        flex-direction: column;
+      }
 
       .item {
         background-color: #ffffff;
@@ -100,14 +102,14 @@
       line-height: 88px;
       color: rgba(32, 29, 71, 0.724);
 
-      // @include tablet {
-      //   margin-top: 20%;
-      //   font-size: 65px;
-      // }
+      @include tablet {
+        margin-top: 20%;
+        font-size: 65px;
+      }
 
-      // @include mobile {
-      //   font-size: 36px;
-      // }
+      @include mobile {
+        font-size: 36px;
+      }
     }
 
     span {
@@ -119,15 +121,15 @@
     flex: 1;
     position: relative;
 
-    // @include tablet {
-    //   padding: 50px;
-    //   width: 100%;
-    // }
+    @include tablet {
+      padding: 50px;
+      width: 100%;
+    }
 
-    // @include mobile {
-    //   padding: 50px;
-    //   width: 100%;
-    // }
+    @include mobile {
+      padding: 50px;
+      width: 100%;
+    }
 
     .phoneSvg {
       stroke: #f293059b;
@@ -135,13 +137,13 @@
       margin: auto;
       z-index: -1;
 
-      // @include tablet {
-      //   margin-left: 25%;
-      // }
+      @include tablet {
+        margin-left: 25%;
+      }
 
-      // @include mobile {
-      //   margin-left: -20%;
-      // }
+      @include mobile {
+        margin-left: -20%;
+      }
     }
 
     form {
@@ -149,18 +151,18 @@
       flex-direction: column;
       gap: 20px;
 
-      // @include desktop {
-      //   padding: 30px;
-      //   margin-top: -10%;
-      // }
+      @include desktop {
+        padding: 30px;
+        margin-top: -10%;
+      }
 
-      // @include tablet {
-      //   padding: 20px;
-      // }
+      @include tablet {
+        padding: 20px;
+      }
 
-      // @include mobile {
-      //   padding: 10px;
-      // }
+      @include mobile {
+        padding: 10px;
+      }
 
       input,
       textarea {
@@ -170,9 +172,9 @@
         color: black;
         border-radius: 5px;
 
-        // @include mobile {
-        //   padding: 10px;
-        // }
+        @include mobile {
+          padding: 10px;
+        }
       }
 
       button {
@@ -184,13 +186,13 @@
         font-weight: 700;
         color: #fff;
 
-        // @include tablet {
-        //   padding: 15px;
-        // }
+        @include tablet {
+          padding: 15px;
+        }
 
-        // @include mobile {
-        //   padding: 10px;
-        // }
+        @include mobile {
+          padding: 10px;
+        }
       }
 
       .error {

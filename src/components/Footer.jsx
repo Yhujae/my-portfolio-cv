@@ -2,7 +2,7 @@ import "./footer.scss";
 
 import { FaGithub, FaLinkedinIn, FaPhone } from "react-icons/fa";
 
-const FooterCover = () => {
+const Footer = () => {
   return (
     <>
       <hr style={{ marginTop: "10%", width: "40vw" }} />
@@ -32,4 +32,4 @@ const FooterCover = () => {
   );
 };
 
-export default FooterCover;
+export default Footer;

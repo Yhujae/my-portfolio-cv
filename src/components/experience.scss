@@ -76,4 +76,28 @@ body {
       color: #5da1b1;
     }
   }
+
+  .cv__link {
+    background-color: white;
+    padding: 20px 0 20px 30px;
+    display: flex;
+    margin: auto;
+    color: #485c64;
+    text-decoration: none;
+    width: 150px;
+    font-weight: 700;
+    margin-top: 10%;
+    box-shadow: 1px 3px 1px rgba(199, 203, 203, 0.748);
+    border-radius: 9999px;
+    outline: none;
+    cursor: pointer;
+
+    transition: transform 0.7s;
+    &:hover {
+      transform: scale(1.1);
+    }
+    .cv__download {
+      margin-left: 10px;
+    }
+  }
 }

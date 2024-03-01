@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./header.scss";
 
-function HeaderCover() {
+function Header() {
   const [isVisible, setIsVisible] = useState(true);
   const location = useLocation();
   const [activeButton, setActiveButton] = useState(null);
@@ -74,4 +74,4 @@ function HeaderCover() {
   );
 }
 
-export default HeaderCover;
+export default Header;
