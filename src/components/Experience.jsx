@@ -1,6 +1,6 @@
 import { experiencesData } from "../lib/data";
 import "./experience.scss";
-import { HiDownload } from "react-icons/hi";
+import { HiArrowRight, HiDownload } from "react-icons/hi";
 import Footer from "./Footer";
 import {
   VerticalTimeline,
@@ -72,16 +72,28 @@ function Experience() {
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>
-        <a
-          className='cv__link'
-          href='https://www.dropbox.com/scl/fi/h9surv5d3wpth2kklwcqs/My-CV.pdf?rlkey=piz0zpuemaaz7n6g2y33rvn0f&dl=0'
-          download
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Download CV
-          <HiDownload className='cv__download' />
-        </a>
+
+        <div className='info'>
+          <a
+            className='cv__link'
+            href='/contact'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Contact Me
+            <HiArrowRight className='cv__download' />
+          </a>
+          <a
+            className='cv__link'
+            href='https://www.dropbox.com/scl/fi/h9surv5d3wpth2kklwcqs/My-CV.pdf?rlkey=piz0zpuemaaz7n6g2y33rvn0f&dl=0'
+            download
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Download CV
+            <HiDownload className='cv__download' />
+          </a>
+        </div>
       </div>
       <Footer />
     </>
